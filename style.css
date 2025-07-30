@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf0d5;
+}
+
+.main-container {
+  width: 23%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.5rem 1.5rem;
+  background-color: white;
+}
+
+form input,
+.select-container,
+button {
+  width: 100%;
+  margin-top: 0.4rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+/* Amount Container */
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+
+.amount-container input {
+  padding: 0.6rem 0.5rem;
+  border: 1px solid grey;
+  font-size: 1rem;
+}
+
+/* Country Selector */
+
+.country-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.country-selector i {
+  margin-top: 1.5rem;
+}
+
+.select-container {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.5rem;
+}
+
+.select-container img {
+  width: 2rem;
+}
+
+.select-container select {
+  border: none;
+}
+
+/* Message Container */
+
+.msg-container {
+  margin-top: 1.5rem;
+}
+
+.msg-container p {
+  font-size: 1rem;
+}
+
+/* Button */
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.7rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.81);
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
